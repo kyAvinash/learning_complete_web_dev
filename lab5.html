@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, innitial-scale=1.0">
+        <title>Tables and Lists</title>
+    </head>
+    <body>
+        <!-- ul used for unordered list and it attributes are (desk, square, circle)
+             li used to write what we want to write in list
+
+             ol used for orderd list and it attributes are many(like a,A,1,i,...)
+        -->
+        <ul type="circle">
+            <li>This is first unorderd list</li>
+            <li>This is second unordered list</li>
+            <li>This is third unordered list</li>
+            
+
+            <!-- Nested unordered list(for sublist)-->
+            <ul type="square">
+                <li>This is first nested unordered list</li>
+                <li>This is second nested unordered list</li>
+                <li>This is third nested unordered list</li>
+            </ul>
+            
+            <!-- Then again we can start writing unorder list -->
+            <li>This is forth unorder list</li>
+            <li>This is fifth unorder list</li>
+            <li>This is sixth unorder list</li>
+
+        </ul>
+
+        <!--ol used for order list-->
+        <ol type="1">
+            <li>This is first orderd list</li>
+            <li>This is second orderd list</li>
+            <li>This is third orderd list</li>
+            <ol type="i">
+                <li>This is first nested ordered list</li>
+                <li>This is second nested ordered list</li>
+                <li>This is third nested ordered list</li>
+            </ol>
+            <!-- Then again we can start writing order list-->
+            <li>This is fourth order list</li>
+            <li>This is fifth order list</li>
+            <li>This is sixth order list</li>
+        </ol>
+
+
+
+        <!--Table Tag
+        Table are having two things table head(thead) and table body(tbody) and thead having tr and th. 
+        and tbody having tr and td.
+
+                             |----tr (row)
+                 |----- thead|----th  <th> elements to define table headers for each column.
+        Table----|             
+                 |----- tbody|----tr  (row)
+                             |----td  (element of row defined as td)
+        -->
+
+
+        <h3> TABLE </h3>
+        <table>
+            <thead>
+                <tr> <!-- Starting row wise(-----) -->
+                    <th>NAME</th>
+                    <th>ID</th>
+                    <th>EMP ROLL</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr> <!-- Starting the row -->
+                    <td> Avinash </td>  <!-- td is element of row -->
+                    <td> 12345 </td>
+                    <td> Developer </td>
+                </tr>
+
+                <!-- By writing more tr we can increase number of row in table -->
+
+                <tr>
+                    <td> Ram </td>
+                    <td> 5555 </td>
+                    <td> Software Engineer </td>
+                </tr>
+
+                <tr>
+                    <td> Sita </td>
+                    <td> 6666 </td>
+                    <td> Engineer </td>
+                </tr>
+
+                <tr>
+                    <td> Lakshuman </td>
+                    <td> 8255 </td>
+                    <td> Hacker </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </body>
+</html>
