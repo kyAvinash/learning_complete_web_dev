@@ -7,10 +7,10 @@
     </head>
     <body>
         <h2>Different types of HTML FORMS</h2>
-<div style="float: left; width: 50%;">
+<div style="float: left; width: 40%;">
         <form action="first.js">
 
-
+            <h3>FORM without using label tag.</h3>
             <!--
                 <label for="name">Name: </label>
                 <div>
@@ -50,7 +50,7 @@
             </div>
             <br>
             <div>
-                <select name="myCar" id="car">
+                <select name="myCar">
                     <option value="Scarpio"> SCARPIO </option>
                     <option value="bmw"> BMW </option>
                     <option value="Jeep" selected> JEEP </option>
@@ -76,6 +76,7 @@
 
         
 <div style="float: left; width: 50%;">
+    <h3>FORM using label tag.</h3>
         <form action="first.js">
 
 
@@ -131,14 +132,6 @@
             </div> 
             <!-- Here checked used for auto check for elegibility checked box -->
 
-            <!-- Here we can see the difference between both -->
-
-
-            <label for="elig">Are you eligibal??: </label>
-            <div> 
-                <input type="checkbox" name="myEligibility" id="elig"> 
-            </div>
-
             <label for="gnd">Gender: </label>
             <div> 
                 Male<input type="radio" name="myGender" id="gnd"> 
@@ -152,9 +145,6 @@
                 <textarea name="myText" id="txtt" cols="10" rows="10"></textarea>
             </div>
 
-            <br>
-
-
             <label for="car">Car: </label>
             <div>
                 <select name="myCar" id="car">
@@ -164,15 +154,15 @@
                 </select>
             </div>
 
-            <br>
+        
             <div>
                 <input type="reset" value="Reset Now">
             </div>
-            <br>
-            <div> <input type="submit" value="Submit Now"> </div>
-
 
             
+            <div> 
+                <input type="submit" value="Submit Now">
+            </div>
             
         </form>
 
