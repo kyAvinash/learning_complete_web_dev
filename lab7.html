@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline and Block elements</title>
+</head>
+<body>
+    <p> This is Paragraph 1 for testing </p>
+    <p> This is Paragraph 2 for testing </p>
+
+    <!-- Here its automatically inserting line after every new paragraph 
+    
+    Now we will test with <span> tag.
+    -->
+
+    <span> This is 1st Span </span>
+    <span> This is 2nd Span </span>
+
+    <!-- Here span will not change new line at the end of every span tag. So if 
+        we don't want to change the line after paragraph we can use  the span.
+    -->
+
+
+    <!-- Here we can't understand the difference between the <p> tag and <span> tag
+        Just we can play with both tags to understand better.    
+    -->
+
+    <p style="border:2px solid red;"> This is Paragraph 3 for understand the difference. </p>
+    <p style="border:2px solid blue;"> This is Paragraph 4 for understand the difference. </p>
+
+
+    <!-- now just apply same style for span tag -->
+
+    <span style="border:2px solid red;"> This is Span 3 for understand the difference </span>
+    <span style="border:2px solid blue;"> This is Span 4 for understand the difference </span>
+
+    <!-- Now here in output we can absorb the difference between paragraph <p> tag and <span> tag 
+        <p> paragraph tag will take full (complete line and we can use that).
+            But <span> only taking own space equals to number of characters present in tag.
+                Just closly obsorb in output.
+                
+        that's why <span tag is Inline tag.
+        and <p> is block element.
+
+        <span> tag is an inline element
+        li ->       <li> tag is neither an inline nor a block-level element. 
+                    <li> tag is used to represent an individual item in an ordered list 
+                    (<ol>) or an unordered list (<ul>). Lists can contain multiple list items, 
+                    and each list item represents a single entry or point in the list.
+                    When used inside an ordered or unordered list, the <li> tag automatically 
+                    creates a new list item for each element and formats them accordingly. 
+                    List items are displayed consecutively, one after the other, and they 
+                    can contain various types of content, such as text, images, or other HTML elements.
+        
+        em ->       The <em> tag is an inline element
+
+        div->       The <div> tag is a block-level element
+        img->       The <img> tag is an inline element
+    -->
+
+
+</body>
+</html>
