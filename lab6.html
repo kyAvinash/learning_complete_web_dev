@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title> Learrning about FORMS </title>
+    </head>
+    <body>
+        <h2>Different types of HTML FORMS</h2>
+<div style="float: left; width: 50%;">
+        <form action="first.js">
+
+
+            <!--
+                <label for="name">Name: </label>
+                <div>
+                    <input type="text" name="myname" id="name">
+                </div> 
+            -->
+
+            <div> Name: <input type="text" name="myname"> </div>
+            <div> Role: <input type="text" name="myrole"> </div>
+            <div> Email: <input type="email" name="myemail"> </div>
+            <!-- Here name attributes used to identify the email name and role tag in backend -->
+            <!-- 
+                Name: <input type="text">  <br>
+                Role: <input type="text">   <br>
+                Email: <input type="email">  <br>
+                
+                Here for changing the line we can use <br> tag
+                but that is not good practice, on the place of <br>
+                here we can use the <div></div> tag.
+            -->
+            <div> Date: <input type="date" name="mydate"> </div>
+            <div> Bonous: <input type="number" name="mybonous"> </div>
+
+            <div> Are you eligibal??: <input type="checkbox" name="myEligibility" checked> </div> 
+            <!-- Here checked used for auto check for elegibility checked box -->
+
+            <!-- Here we can see the difference between both -->
+            <div> Are you eligibal??: <input type="checkbox" name="myEligibility"> </div>
+
+            <div> Gender: Male<input type="radio" name="myGender"> 
+                          Female<input type="radio" name="myGender"> 
+                          Other<input type="radio" name="myGender"> 
+            </div>
+
+            <div>
+                Write about yourself: <textarea name="myText" cols="10" rows="10"></textarea>
+            </div>
+            <br>
+            <div>
+                <select name="myCar" id="car">
+                    <option value="Scarpio"> SCARPIO </option>
+                    <option value="bmw"> BMW </option>
+                    <option value="Jeep" selected> JEEP </option>
+                </select>
+            </div>
+
+            <br>
+            <div>
+                <input type="reset" value="Reset Now">
+            </div>
+            <br>
+            <div> <input type="submit" value="Submit Now"> </div>
+
+
+            
+            
+        </form>
+    </div>
+
+
+        <!-- that form is implementation for  form using label tag -->
+
+
+        
+<div style="float: left; width: 50%;">
+        <form action="first.js">
+
+
+            <!--
+                <label for="name">Name: </label>
+                <div>
+                    <input type="text" name="myname" id="name">
+                </div> 
+            -->
+            <label for="name">Name: </label>
+                <div> 
+                    <input type="text" name="myname" id="name"> 
+                </div>
+            
+            
+            <label for="role">Role: </label>
+            <div>
+                <input type="text" name="myrole" id="role"> 
+            </div>
+
+
+            <label for="gm">Email: </label>
+            <div>
+                <input type="email" name="myemail" id="gm"> 
+            </div>
+            <!-- Here name attributes used to identify the email name and role tag in backend -->
+            <!-- 
+                Name: <input type="text">  <br>
+                Role: <input type="text">   <br>
+                Email: <input type="email">  <br>
+                
+                Here for changing the line we can use <br> tag
+                but that is not good practice, on the place of <br>
+                here we can use the <div></div> tag.
+            -->
+
+            <label for="dt">Date: </label>
+            <div>
+                <input type="date" name="mydate" id="dt"> 
+            </div>
+
+
+            <label for="bns">Bonous</label>
+            <div>
+                <input type="number" name="mybonous" id="bns"> 
+            </div>
+
+
+
+            <label for="elig">Are you eligibal??: </label>
+            <div> 
+                <input type="checkbox" name="myEligibility" id="elig" checked> 
+            </div> 
+            <!-- Here checked used for auto check for elegibility checked box -->
+
+            <!-- Here we can see the difference between both -->
+
+
+            <label for="elig">Are you eligibal??: </label>
+            <div> 
+                <input type="checkbox" name="myEligibility" id="elig"> 
+            </div>
+
+            <label for="gnd">Gender: </label>
+            <div> 
+                Male<input type="radio" name="myGender" id="gnd"> 
+                Female<input type="radio" name="myGender" id="gnd"> 
+                Other<input type="radio" name="myGender" id="gnd"> 
+            </div>
+
+
+            <label for="txtt">Write about yourself: </label>
+            <div>
+                <textarea name="myText" id="txtt" cols="10" rows="10"></textarea>
+            </div>
+
+            <br>
+
+
+            <label for="car">Car: </label>
+            <div>
+                <select name="myCar" id="car">
+                    <option value="Scarpio"> SCARPIO </option>
+                    <option value="bmw"> BMW </option>
+                    <option value="Jeep" selected> JEEP </option>
+                </select>
+            </div>
+
+            <br>
+            <div>
+                <input type="reset" value="Reset Now">
+            </div>
+            <br>
+            <div> <input type="submit" value="Submit Now"> </div>
+
+
+            
+            
+        </form>
+
+    </div>
+
+
+    </body>
+</html>
